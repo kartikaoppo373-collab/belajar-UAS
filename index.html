@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Cafe</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <header>
+        <h1>☕ CAFE SENJA</h1>
+
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Menu</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Location</a></li>
+                <li> <a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="web"></div>
+        <!-- web itu utk memanggil gambar -->
+        <h2 class="hero-tittle">Meja kopi, lampu hangat, suasana cozy</h2>
+        <p class="sub-judul">Selamat Datang di Cafe Senja Nikmati Kopi Terbaik dan Suasana Nyaman</p>
+    <div class="tombol">
+        <button class="pencet"><a href="history.html">Lihat menu</a></button>
+    </div>
+
+        <h2 class="menu-tittle">Menu Pilihan Kami</h2>
+
+
+    <div class="card-grid">
+        <article class="card">
+            <h3>☕ Cappuccino</h3>
+            <p>Harga: Rp25.000</p>
+        </article>
+
+        <article class="card">
+            <h3>🍔 Burger Special</h3>
+            <p>Harga: Rp35.000</p>
+        </article>
+
+
+        <article class="card">
+            <h3>🍰 Cheesecake</h3>
+            <p>Harga: Rp28.000</p>
+        </article>
+
+        <article class="card">
+            <h3>🍜 Creamy Carbonara</h3>
+            <p>Harga: Rp40.000</p>
+        </article>
+    
+    </div>
+
+    <section class="lokasi">
+    <h3>Temukan Kami</h3>
+
+    <div class="lokasi-box">
+        <p>📍 Jl. Gatot Subroto, Medan</p>
+        <p>📞 0812-6263-0021</p>
+        <p>🕒 Buka setiap hari 09.00 - 23.00</p>
+    </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>&copy;2026 Cafe Senja
+            Instagram | Whatsapp | Facebook
+        </p>
+    </footer>
+
+    <script>
+function toggleMenu(){
+   document.querySelector("nav").classList.toggle("show");
+}
+</script>
+    
+</body>
+</html>

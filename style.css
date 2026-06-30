@@ -1,0 +1,335 @@
+h1{
+    font-family: 'Monotype Corsiva', cursive;
+    font-size:55px;
+}
+/* untuk mengatur Cafe Senja */
+
+body{
+    background-color: #E6D8C3;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+/* untuk mngatur smua body */
+
+.hero-tittle{
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #957C62;
+    margin-top: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+/* untk mengatur tulisan "meja kopi,lampu hangat,suasana cozy" */
+
+.menu-tittle{
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #703B3B;
+    text-align: center;
+}
+/* untuk mengatur tulisan "menu pilhan kami" */
+
+header{
+    font-size: 15px;
+    color: #7B542F;
+    padding: 20px 40px;
+    text-align: center;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    /* justify content berfungsi untuk membuat konten menjadi berjarak di antaranya / membuat jadi ke ujung kanan dan kiri
+    ada space-between dan center */
+    background-color: #C1856D;
+    align-items: center;
+}
+/* untk mengatur semua bagian header (senja cafe, home,menu,about,location,contact) */
+
+main .sub-judul{
+    text-align: center;
+    color: #B77466;
+}
+/* untuk mengatur tulisan "Selamat datang di Cafe senja Nikmati kopi terbaik dan suasana nyaman" */
+
+.sub-judul{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-family: 'Palatino Linotype', serif;
+}
+/* untuk mengatur tulisan "Selamat datang di Cafe senja Nikmati kopi terbaik dan suasana nyaman" */
+
+main{
+    margin-top: 0;
+}
+
+button{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+/* untuk mengatur tombol "Lihat menu" */
+
+.tombol{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/* utk mengatur tombol "lihat menu" */
+
+header h1{
+    font-size: 30px;
+}
+/* mngatur ukuran tulisan "Cafe Senja" */
+
+a{
+    text-decoration: none;
+    color: #703B3B;
+}
+/* color: mengatur warna tulisan "lihat menu"
+text-decoration: menghilangkan garis dibwah tulisan "lihat menu" */
+
+
+.card-grid{
+    margin: 30px;
+    grid-template-columns: 1fr 1fr;
+    /* kalau mau buat 1 baris : 2fr 1fr */
+    display: grid;
+    gap: 20px;
+    font-family: 'Palatino Linotype', serif;
+}
+/* card grid: mengatur 4 kotak itu */
+
+
+.card{
+    color: #703B3B;
+    background-color: #E1D0B3;
+    border: 1px solid #E1D0B3;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.8);
+    /* box shadow berfungsi untuk memberikan efek bayangan pada sebuah element tertentu atau element
+    yang di inginkan 
+    mengatur 4 kotak itu*/
+}
+
+
+h3{
+    font-size: 25px;
+    color: #703B3B;
+}
+/* mengatur ukuran font tulisan (cappucino,burger spesial,dll) */
+
+.card p{
+    font-size: 15px;
+}
+/* mengatur ukuran tulisan deskripsi dr cappucini(harga) */
+
+.lokasi-box{
+    color: #957C62;
+}
+/* mengatur kotak dari "Temukan kami */
+
+
+footer{
+    color: #715A5A;
+    text-align: center;
+    border-top: 1px solid #F9D0CD;
+    padding: 20px;
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    font-size: 15px;
+    gap: 15px;
+}
+/* mengatur footer (bagian paling bawah @2026 cafe senja Instagram ...) */
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+/* mengatur bagian home,menu,about,location,contact */
+
+nav ul li a:hover {
+    background-color: #957C62;
+}
+/* mengatur hover dr tulisan home,dll */
+
+nav ul li {
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+/* mengatur home,dll */
+nav ul li a {
+    border: 1px solid grey ;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: #E2B59A;
+    font-size: 20px;
+}
+/* mengatur home,dll */
+
+.pencet{
+    background-color: #B77466;
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* mengatur "lihat menu" */
+
+.tombol :hover{
+    background-color: #E6D8C3;
+    transform: scale(1.05);
+}
+/* mengatur hovernya tombol */
+
+.card-grid :hover {
+    background-color: #B77466;
+}
+/* mengatur hover 4 kotak itu */
+
+
+main h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+/* mengatur h2 */
+
+.hamburger{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #703B3B;
+}
+/* mengatur hamburger */
+
+.web{
+    width: 90%;
+    max-width: 1000px;
+    height: 420px;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+
+    background-image: url('web.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+/* mengatur poto */
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.lokasi{
+    margin: 60px auto;
+    width: 85%;
+    background: #E1D0B3;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+section{
+    margin-top: 80px;
+}
+
+.show{
+    display: block;
+}
+
+/* Versi Mobile */
+@media(max-width : 768px) {
+
+    .hamburger{
+        display: block;
+    }
+    nav{
+        display: none;
+        width: 100%;
+    }
+
+    nav.show{
+        display: block;
+    }
+
+    .hero-tittle{
+        font-size: 27px;
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+        color: #957C62;
+        margin-top: 10px;
+        font-family: 'Lucida Handwriting', cursive;
+    }
+
+    main h2{
+        font-size: 38px;
+        margin: 70px 0 30px;
+    }
+
+    main .sub-judul{
+        font-size: 12px;
+    }
+
+
+    a{
+        font-size: 12px;
+    }
+
+    button{
+        padding: 8px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    nav ul li a{
+        font-size: 8px;
+        padding: 12px;
+    }
+
+    nav ul li{
+        padding: 8px;
+        margin: 5px 0;
+    }
+
+    .card h3{
+        font-size: 12px;
+    }
+
+    .card p{
+        font-size: 10px;
+    }
+
+    .card-code{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .card-grid{
+        padding: 25px;
+    }
+
+    .card{
+        padding: 15px;
+    }
+
+    footer{
+        font-size: 7px;
+        text-align: center;
+    }
+}
